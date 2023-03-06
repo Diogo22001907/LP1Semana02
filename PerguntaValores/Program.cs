@@ -18,7 +18,9 @@ namespace PerguntaValores
             if (double.TryParse(height_input, out height) && (double.TryParse(radius_input, out radius)))
             {
                 double volume = pi * Math.Pow(radius, 2) * height;
+                double area_surface = 2 * pi * radius * (radius + height);
                 Console.WriteLine("The volume of the cilinder is " + volume);
+                Console.WriteLine("The area surface of the cilinder is " + area_surface);
             }
 
             else
