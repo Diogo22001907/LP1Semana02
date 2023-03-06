@@ -19,13 +19,13 @@ namespace PerguntaValores
             {
                 double volume = pi * Math.Pow(radius, 2) * height;
                 double area_surface = 2 * pi * radius * (radius + height);
-                Console.WriteLine("The volume of the cilinder is " + volume);
-                Console.WriteLine("The area surface of the cilinder is " + area_surface);
+                Console.WriteLine("The volume of the cylinder is " + volume);
+                Console.WriteLine("The area surface of the cylinder is " + area_surface);
             }
 
             else
             {
-                Console.WriteLine("The input given are not correct.");
+                Console.WriteLine("The inputs given are not correct.");
             }
 
 
