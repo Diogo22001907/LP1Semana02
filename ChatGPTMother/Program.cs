@@ -36,6 +36,8 @@ namespace ChatGPTMother
                 }
                 
             Console.WriteLine(response);
+
+            //Fiz o programa todo num só commit porque só me lembrei que era para fazer vários quando fiz push.
             
             }
 
