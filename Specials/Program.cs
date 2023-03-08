@@ -19,7 +19,7 @@ namespace Specials
             Console.WriteLine(f2);
 
             //double
-            double d = double.MaxValue;
+            double d =  double.MaxValue;
             double d2 = double.MinValue;
             Console.WriteLine(d);
             Console.WriteLine(d2);
@@ -68,6 +68,12 @@ namespace Specials
             Console.WriteLine(x2);
             Console.WriteLine(y2);
             Console.WriteLine(z2);
+
+            //overflow
+            Console.WriteLine(i + 1);
+            Console.WriteLine(l + 1);
+            Console.WriteLine(s + 1);
+            Console.WriteLine(b + 1);
 
 
 
