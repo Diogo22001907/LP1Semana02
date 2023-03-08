@@ -54,6 +54,26 @@ namespace Specials
             Console.WriteLine(b);
             Console.WriteLine(b2);
 
+            //infinity and NaN
+            double x = double.PositiveInfinity;
+            double y = double.NegativeInfinity;
+            double z = double.NaN;
+            Console.WriteLine(x);
+            Console.WriteLine(y);
+            Console.WriteLine(z);
+
+            float x2 = float.PositiveInfinity;
+            float y2 = float.NegativeInfinity;
+            float z2 = float.NaN;
+            Console.WriteLine(x2);
+            Console.WriteLine(y2);
+            Console.WriteLine(z2);
+
+
+
+
+
+
 
         }
     }
