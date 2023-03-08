@@ -69,11 +69,17 @@ namespace Specials
             Console.WriteLine(y2);
             Console.WriteLine(z2);
 
-            //overflow
+            //overflow in Integral Variables
             Console.WriteLine(i + 1);
             Console.WriteLine(l + 1);
             Console.WriteLine(s + 1);
             Console.WriteLine(b + 1);
+
+            //Overflow in Real Variables
+            float t = 2 * float.MaxValue;
+            double u = 2 * double.MaxValue;
+            Console.WriteLine(t);
+            Console.WriteLine(u);
 
 
 
